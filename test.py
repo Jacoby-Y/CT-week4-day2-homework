@@ -15,6 +15,8 @@ class IsPalindrome(TestCase):
 		self.assertFalse(is_pal("somemoss"))
 	def test_6_false(self):
 		self.assertFalse(is_pal("rotator, oh rotator"))
+	def test_7_empty(self):
+		self.assertTrue(is_pal(""))
 
 if __name__ == '__main__':
 	main()
